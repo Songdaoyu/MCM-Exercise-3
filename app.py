@@ -9,7 +9,7 @@ app = Dash(_name_, external_stylesheets=[dbc.themes.CERULEAN])
 app.title = "MCM7183 Exercise 3"
 server = app.server
 
-df = pd.read_csv("https://raw.githubusercontent.com/wenjiun/MCM7183Exercise3/main/assets/gdp_1960_2020.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Songdaoyu/MCM-Exercise-3/refs/heads/main/assest/gdp_1960_2020.csv")
 
 image_path = 'assets/logo-mmu.png'
 
